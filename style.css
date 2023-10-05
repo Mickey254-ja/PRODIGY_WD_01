@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Background color for the entire page */
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #303389; /* Default background color for navigation */
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display items horizontally */
+    justify-content: space-around; /* Space items evenly */
+  }
+  
+  .horizontal-menu li {
+    padding: 10px;
+    transition: color 0.3s; /* Smooth transition for font color */
+  }
+  
+  .horizontal-menu a {
+    text-decoration: none;
+    color: #fff; /* Default font color for menu items */
+    transition: color 0.3s; /* Smooth transition for font color */
+  }
+  
+  /* Change background color on scroll */
+  .fixed-nav.scrolled {
+    background-color: #555; /* Background color when scrolled */
+  }
+  
+  /* Change font color on hover */
+  .horizontal-menu li:hover a {
+    color: #33f5ff; /* Font color on hover */
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button font color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for button */
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Button background color on hover */
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
